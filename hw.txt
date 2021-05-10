@@ -1,0 +1,22 @@
+Create order table:
+  id (int, auto-increment, pk)
+  item_name text
+  quantity int
+  price real
+  customer_name text
+create at least 4-5 records
+create Order POJO class
+create a DAO class 
+create a web-api OrderController with:
+  GET
+  GET/ID
+  PUT/ID
+  POST
+  DELETE
+this methods should work against the db
+*etgar:
+  GETPRICORDER/ID -- wil get the price order of the id (will calculate quantity x price)
+  GETTOTAL -- will get the total price of all orders sum(quantity x price)
+  
+
+
