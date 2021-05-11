@@ -14,6 +14,8 @@ create a web-api OrderController with:
   POST
   DELETE
 this methods should work against the db
+Add swagger api
+  test your app using the swagger-ui
 *etgar:
   GETPRICORDER/ID -- wil get the price order of the id (will calculate quantity x price)
   GETTOTAL -- will get the total price of all orders sum(quantity x price)
